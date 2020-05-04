@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-media-lister",
+  "version": "0.2.0",
+  "description": "List media files present on the device.",
+  "cordova": {
+    "id": "ccordova-plugin-media-lister",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudetech/cordova-plugin-media-lister.git"
+  },
+  "keywords": [
+    "audio",
+    "video",
+    "image",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/claudetech/cordova-plugin-media-lister/issues"
+  },
+  "homepage": "https://github.com/claudetech/cordova-plugin-media-lister"
+}
