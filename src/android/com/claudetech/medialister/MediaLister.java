@@ -185,7 +185,7 @@ public class MediaLister extends CordovaPlugin {
                 projection,
                 selection,
                 null,
-                MediaStore.Files.FileColumns.DATE_ADDED + " DESC "
+                MediaStore.Files.FileColumns.DATE_ADDED + " DESC " + limitAndOffset
         );
         return cursorLoader.loadInBackground();
     }
