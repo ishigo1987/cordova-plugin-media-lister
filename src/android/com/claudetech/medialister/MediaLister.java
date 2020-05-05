@@ -247,7 +247,7 @@ public class MediaLister extends CordovaPlugin {
     }
 
     private String getThumbnailPath(int id, int width, int height) {
-        File outputDir = cordova.getActivity().getCacheDir();
+        File outputDir = cordova.getActivity().getFilesDir();
         return outputDir.getAbsolutePath() + "/" + id + "-" + width + "x" + height + ".jpg";
     }
 }
