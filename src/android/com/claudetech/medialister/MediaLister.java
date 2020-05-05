@@ -113,7 +113,7 @@ public class MediaLister extends CordovaPlugin {
         Bitmap thumbnail = createThumbnailBitmap(image, width, height);
         File thumbnailFile = new File(getThumbnailPath(image.getInt("id"), width, height));
         FileOutputStream fos = new FileOutputStream(thumbnailFile);
-        thumbnail.compress(Bitmap.CompressFormat.JPEG, 90, fos);
+        thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, fos);
         fos.flush();
         fos.close();
         thumbnail.recycle();
